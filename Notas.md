@@ -10,7 +10,9 @@ En cloud9 o localmente:
 
 - Construir la aplicacion
 `
-cd trivia-app\ 
-sam build\
+cd trivia-app
+
+sam build
+
 sam deploy --guided
 `
