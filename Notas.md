@@ -24,3 +24,28 @@ En cloud9 o localmente:
 
 `nvm alias default lts/gallium`
 
+- Hacer correr el frontend `npm install` y `npm run start`
+
+- Desplegar el frontend en un s3
+
+`aws s3 mb s3://<iniciales><edad>-trivia-app-bucket/`
+
+`npm run build`
+
+`aws s3 sync --acl public-read build s3://<iniciales><edad>-trivia-app-bucket/`
+
+- Luego subir un repositio git
+
+cd ~/environment/trivia-app/
+`git init`
+
+`git checkout -b main`
+
+`git add .`
+
+`git commit -m "initial commit"`
+
+`git remote add origin codecommit://trivia-app`
+
+`git push origin main`
+
