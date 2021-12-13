@@ -20,6 +20,6 @@ En cloud9 o localmente:
 - Actualizar el frontend  en  `trivia-app/front-end-react/src/config.js`
 - Establecer la version de node
 `
-nvm install lts/gallium \n
+nvm install lts/gallium <br />
 nvm alias default lts/gallium
 `
