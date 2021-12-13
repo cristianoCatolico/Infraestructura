@@ -16,3 +16,10 @@ En cloud9 o localmente:
 `sam build`
 
 `sam deploy --guided`
+
+- Actualizar el frontend  en  `trivia-app/front-end-react/src/config.js`
+- Establecer la version de node
+`
+nvm install lts/gallium \n
+nvm alias default lts/gallium
+`
