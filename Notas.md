@@ -9,6 +9,8 @@ En cloud9 o localmente:
 `unzip -o ~/trivia-app.zip`
 
 - Construir la aplicacion
+
+
 `cd trivia-app`
 
 `sam build`
